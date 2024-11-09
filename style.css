@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: rgba(43, 43, 43, 0.856);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.links a {
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    margin:90px;
+    font-size: 19px;
+    opacity: 0.5;
+    line-height: 30px;
+}
+
+img {
+    height: 100vh;
+    width: 60vw;
+    object-fit: cover;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 250;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home_section {
+    display: flex;
+    padding: 0;
+}
+
+.active a {
+    opacity: 1;
+}
+
+.Home a:hover, .Projects a:hover, .About a:hover, .content a:hover {
+    opacity: 1;
+    transition: 0.6s;
+}
