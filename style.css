@@ -5,6 +5,8 @@
 
 body {
     background-color: rgba(0, 0, 0, 0.856);
+    max-width: 1400px;
+    width: 100%;
 }
 
 nav {
@@ -129,10 +131,20 @@ img {
 }
 
 .aboutme {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-gap: 40px;
 }
 
 .about_picture {
     height: 750px;
     width: 650px;
+}
+
+.text_aboutme {
+   color: white;
+}
+
+.aboutme_photo {
+    position: relative;
 }
