@@ -160,3 +160,68 @@ img {
     width: 50px;
     height: 50px;
 }
+
+.skills_container {
+    position: relative;
+    margin: 70px;
+}
+
+.text_about_skills {
+    color: white;
+}
+
+.skill_heading {
+    font-size: 60px;
+    color: rgb(139, 139, 139);
+    opacity: 0.7;
+    text-align: center;
+    font-weight: 750;
+    margin-bottom: 50px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.button_CV a {
+    text-decoration: none;
+    color: white;
+}
+.button_CV {
+    background-color: rgb(65, 65, 65);
+    position: absolute;
+    left: 150px;
+    top: 568px;
+    padding: 7px;
+}
+.button_CV:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.picture_skills {
+    height: 120px;
+    width: 120px;
+}
+
+.level_skill {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    color: white;
+    bottom: 50px;
+}
+.js {
+    border-radius: 50%;
+    border: 6px solid rgb(255, 241, 44);
+}
+.html {
+    border-radius: 50%;
+    border: 6px solid red;
+}
+.css {
+    border-radius: 50%;
+    border: 6px solid rgb(70, 132, 248);
+}
